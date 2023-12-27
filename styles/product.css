@@ -1,0 +1,40 @@
+/* 상품 페이지 배경 */
+.bg {
+    background-color: #FFF6C8; font-family: 'Noto Sans KR';
+    width: 1200px; margin: 0 auto; padding: 101px 70px 116px 70px;
+    display: flex;
+}
+.bg .product {margin-right: 20px;}
+.bg .product:last-child {margin: 0;}
+/* 상품 이미지 */
+.bg .product .photo {}
+.bg .product .photo a {}
+.bg .product .photo a img {margin-bottom: 4px;}
+/* 상품 상세 정보 */
+.bg .product .product_info {}
+.bg .product .product_info h2 {
+    font-size: 0.9375rem; letter-spacing: -0.3px;
+    margin-bottom: 4px;
+}
+.bg .product .product_info .price {
+    font-weight: 700; padding-bottom: 12px;
+    border-bottom: 1px solid #000;
+    letter-spacing: -0.3px;
+}
+.bg .product .product_info .size_review {
+    margin: 12px 0;
+    display: flex; justify-content: space-between;
+}
+.bg .product .product_info .size_review .size {font-size: 0.875rem; letter-spacing: -0.3px;}
+.bg .product .product_info .size_review .review {font-size: 0.75rem; letter-spacing: -0.3px;}
+.bg .product .product_info .title {display: flex;}
+.bg .product .product_info .title p {
+    border: 1px solid #000; border-radius: 10px;
+    margin-right: 8px; letter-spacing: -0.3px;
+}
+.bg .product .product_info .title p:first-child {
+    padding: 2px 8px; color: #FF0000;
+}
+.bg .product .product_info .title p:last-child {
+    padding: 2px 4px; margin: 0;
+}
